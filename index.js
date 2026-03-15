@@ -1,11 +1,7 @@
 // dom content loaded event listener
 document.addEventListener("DOMContentLoaded", () => {
-  // Allow http call on Chrome
-  if (location.protocol == "https:") {
-    location.protocol = "http:";
-  }
   let apiKey = "545d54d22a1d2e11994701336242a056";
-  let apiUrl = `http://api.mediastack.com/v1/news?access_key=${apiKey}`;
+  let apiUrl = `https://api.mediastack.com/v1/news?access_key=${apiKey}`;
   let links = document.querySelectorAll("li");
   links.forEach((individualLink) => {
     individualLink.addEventListener("click", () => {

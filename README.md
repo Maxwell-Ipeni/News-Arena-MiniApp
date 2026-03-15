@@ -1,24 +1,30 @@
-# NewsNest by MG
+# News-Arena-MiniApp by MG
 
-Welcome to News Nest, your go-to source for personalized and reliable news content. This web application is built with Bootstrap 5 for seamless design and Vanilla JavaScript for smooth user interactions.
+Welcome to News Arena, your go-to source for personalized and reliable news content. This web application is built with Bootstrap 5 and Vanilla JavaScript.
 
 ## Features
 
 - **User-Friendly Interface:** Clean and intuitive design for effortless navigation
-
 - **Responsive Layout:** Optimized for various devices, ensuring a consistent experience
-
-- **Personalized News Feed:** Tailored news articles based on individual preferences.
-
-- **Category Filters:** Easily filter news by categories such as business, sports, and entertainment.
-
+- **Personalized News Feed:** Tailored news articles based on individual preferences
+- **Category Filters:** Easily filter news by categories such as business, sports, and entertainment
 - **Search Functionality:** Search for articles based on preference
+
+## Design
+
+### Color Palette
+- **Primary:** #0238A4 (Blue)
+- **Secondary:** #908CB8, #FAF8FF, #ABA9BB, #777586, #E8D5B5
+
+### Typography
+- **Titles:** Open Sans Bold
+- **Body:** Open Sans
 
 ## Technologies Used
 
-- **Bootstrap 5:** Utilized for responsive and visually appealing UI components
-
-- **Media Stack API:** To provide a powerful, scalable yet easy-to-use REST API interface delivering worldwide live and historical news data in handy JSON format.
+- **Bootstrap 5:** Responsive and visually appealing UI components
+- **Vanilla JavaScript:** Smooth user interactions
+- **MediaStack API:** Worldwide live and historical news data
 
 ## Getting Started
 
@@ -28,16 +34,14 @@ Welcome to News Nest, your go-to source for personalized and reliable news conte
 git clone https://github.com/chyvail/NewsNest.git
 ```
 
-2. Open 'index.html' file in your browser. You should see something that looks like this on Desktop View
+2. Open `index.html` in your browser, or serve locally:
 
-![NewsNest](https://github.com/chyvail/NewsNest/assets/25295807/70378964-95c3-4bc8-9ba3-c8a9e2374775)
+```sh
+python3 -m http.server 8000
+```
 
-3. The Mobile View looks like this
-
-<p align="center" width="100%">
-    <img src="https://github.com/chyvail/NewsNest/assets/25295807/720417a7-a532-41a3-a3ff-96a390c78b0f">
-</p>
+3. Visit `http://localhost:8000`
 
 ## Contributions
 
-If you have any suggestions, enhancements, or bug fixes, feel free to create an issue or submit a pull request.
+If you have suggestions, enhancements, or bug fixes, feel free to create an issue or submit a pull request.

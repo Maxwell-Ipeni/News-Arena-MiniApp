@@ -1,6 +1,6 @@
 /* Bootstrap Style Overides */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
 * {
   margin: 0;
@@ -15,11 +15,16 @@
 :root {
   --transition: all 400ms ease;
   --container-width-lg: 95%;
-  --primary-color: #c31815;
-  --white: #fff;
-  --gray-background: #e5e5e5;
-  --black: #2a2a2a;
-  --gray-light: #7e7979;
+  --primary-color: #0238A4;
+  --secondary-gray-1: #908CB8;
+  --secondary-gray-2: #FAF8FF;
+  --secondary-gray-3: #ABA9BB;
+  --secondary-gray-4: #777586;
+  --tan-khaki: #E8D5B5;
+  --white: #FAF8FF;
+  --gray-background: #FAF8FF;
+  --black: #777586;
+  --gray-light: #ABA9BB;
 }
 
 html {
@@ -28,6 +33,7 @@ html {
 
 body {
   background-color: var(--gray-background);
+  font-family: "Open Sans", sans-serif;
 }
 
 .containerlg {
@@ -40,8 +46,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
   color: var(--black);
 }
 
@@ -235,7 +241,7 @@ footer a {
 .dropdown-menu.dropdown-menu-dark.show {
   inset: 11px auto auto -11px !important;
   border-radius: 0;
-  background: #c318158c;
+  background: #0238A48c;
   padding: 12px;
 }
 
